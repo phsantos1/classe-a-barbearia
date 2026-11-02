@@ -1,0 +1,6 @@
+{
+  "name": "Barbearia Classe A",
+  "description": "Landing page de alto padrão para a Barbearia Classe A em Formiga - MG. Agendamento simplificado, serviços completos de barbearia e barboterapia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

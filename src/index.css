@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Raleway", -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-brand-dark: #000000;
+  --color-brand-surface: #0a0a0a;
+  --color-brand-elevated: #141414;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F3E5AB;
+  --color-gold-dark: #9A7B20;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #000000;
+    color: #F8FAFC;
+  }
+  
+  body {
+    font-family: "Raleway", sans-serif;
+    background-color: #000000;
+    color: #F8FAFC;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom fine luxury grain & gold metallic accents */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF0B8 0%, #D4AF37 50%, #AA821A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.15);
+}
+
+.gold-border-glow-hover:hover {
+  box-shadow: 0 0 35px -3px rgba(212, 175, 55, 0.28);
+}
